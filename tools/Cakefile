@@ -1,0 +1,36 @@
+fs = require "fs"
+
+option("-o", "--output [PATH]", "Save the output to PATH. If omitted, will output to stdout")
+
+task("build", (options) ->
+
+	filesRemaining = 0
+	plants = []
+
+	getPlantFilename = (plant) -> "../plants/#{ plant }.json"
+
+	readPlantFile = (plant) ->
+		filename = getPlantFilename(plant)
+		console.log filename
+		fs.readFile(filename, (err, data) ->
+			filesRemaining -= 1
+			plants.push(JSON.parse(data))
+			if filesRemaining is 0
+				finishReading()
+		)
+
+	finishReading = ->
+		plantString = JSON.stringify({ plants }, null, 2)
+		if options.output
+			fs.writeFile(options.output, plantString)
+		else
+			console.log(plantString)
+	
+	fs.readFile("../plants/index.json", (err, data) ->
+		
+		plantIndex = JSON.parse(data).plants
+		filesRemaining = plantIndex.length
+
+		plantIndex.forEach(readPlantFile)
+	)
+)
