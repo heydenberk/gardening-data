@@ -1,0 +1,194 @@
+{
+    "content": {
+        "water": {
+            "value": 0.1102,
+            "unit": "grams"
+        },
+        "energy": {
+            "value": 3.41,
+            "unit": "kilocalories"
+        },
+        "protein": {
+            "value": 0.216,
+            "unit": "grams"
+        },
+        "fat": {
+            "value": 0.0142,
+            "unit": "grams"
+        },
+        "carbohydrate": {
+            "value": 0.6236,
+            "unit": "grams"
+        },
+        "dietary fiber": {
+            "value": 0.155,
+            "unit": "grams"
+        },
+        "sugars": {
+            "value": 0.0212,
+            "unit": "grams"
+        },
+        "calcium": {
+            "value": 0.00123,
+            "unit": "grams"
+        },
+        "iron": {
+            "value": 0.0000502,
+            "unit": "grams"
+        },
+        "magnesium": {
+            "value": 0.00171,
+            "unit": "grams"
+        },
+        "phosphorus": {
+            "value": 0.00352,
+            "unit": "grams"
+        },
+        "potassium": {
+            "value": 0.01483,
+            "unit": "grams"
+        },
+        "sodium": {
+            "value": 0.00005,
+            "unit": "grams"
+        },
+        "zinc": {
+            "value": 0.0000365,
+            "unit": "grams"
+        },
+        "vitamin c": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "thiamin": {
+            "value": 0.000008,
+            "unit": "grams"
+        },
+        "riboflavin": {
+            "value": 0.00000193,
+            "unit": "grams"
+        },
+        "niacin": {
+            "value": 0.00001955,
+            "unit": "grams"
+        },
+        "vitamin b-6": {
+            "value": 0.00000286,
+            "unit": "grams"
+        },
+        "dietary folate": {
+            "value": 0.00000444,
+            "unit": "grams"
+        },
+        "vitamin b-12": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin a": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin e": {
+            "value": 0.0000021,
+            "unit": "grams"
+        },
+        "vitamin d2 and d3": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin d": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin k": {
+            "value": 5.6e-8,
+            "unit": "grams"
+        },
+        "saturated fat": {
+            "value": 0.00366,
+            "unit": "grams"
+        },
+        "monounsaturated fat": {
+            "value": 0.00123,
+            "unit": "grams"
+        },
+        "polyunsaturated fat": {
+            "value": 0.0061,
+            "unit": "grams"
+        },
+        "cholesterol": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "caffeine": {
+            "value": 0,
+            "unit": "grams"
+        }
+    },
+    "cultivationCategory": "vegetable",
+    "edibleParts": [
+        "seed"
+    ],
+    "germination": {
+        "duration": {
+            "max": 7, 
+            "min": 1, 
+            "unit": "days"
+        }, 
+        "rate": 0.7
+    }, 
+    "hardinessZone": {
+        "max": 10, 
+        "min": 8
+    }, 
+    "harvest": {
+        "duration": {
+            "max": 12, 
+            "min": 12, 
+            "unit": "week"
+        }
+    }, 
+    "name": "common bean", 
+    "plantings": [
+        {
+            "depth": {
+                "size": 3, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 2, 
+                "min": 1, 
+                "unit": "week"
+            }, 
+            "spacing": {
+                "size": 1, 
+                "unit": "inch"
+            }
+        }, 
+        {
+            "depth": {
+                "size": 3, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 8, 
+                "min": 8, 
+                "unit": "week"
+            }, 
+            "spacing": {
+                "size": 6, 
+                "unit": "inch"
+            }
+        }
+    ], 
+    "soilImpact": "heavy feeder", 
+    "species": "Phaseolus vulgaris", 
+    "sun": {
+        "max": "full sun", 
+        "min": "part sun"
+    },
+    "yield" : {
+        "value": 630,
+        "units": "grams per square foot"
+    }
+}

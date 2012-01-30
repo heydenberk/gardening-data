@@ -1,0 +1,209 @@
+{
+    "content": {
+        "water": {
+            "value": 0.8771,
+            "unit": "grams"
+        },
+        "energy": {
+            "value": 0.36,
+            "unit": "kilocalories"
+        },
+        "protein": {
+            "value": 0.0297,
+            "unit": "grams"
+        },
+        "fat": {
+            "value": 0.0079,
+            "unit": "grams"
+        },
+        "carbohydrate": {
+            "value": 0.0633,
+            "unit": "grams"
+        },
+        "dietary fiber": {
+            "value": 0.033,
+            "unit": "grams"
+        },
+        "sugars": {
+            "value": 0.0085,
+            "unit": "grams"
+        },
+        "calcium": {
+            "value": 0.00138,
+            "unit": "grams"
+        },
+        "iron": {
+            "value": 0.000062,
+            "unit": "grams"
+        },
+        "magnesium": {
+            "value": 0.0005,
+            "unit": "grams"
+        },
+        "phosphorus": {
+            "value": 0.00058,
+            "unit": "grams"
+        },
+        "potassium": {
+            "value": 0.00554,
+            "unit": "grams"
+        },
+        "sodium": {
+            "value": 0.00056,
+            "unit": "grams"
+        },
+        "zinc": {
+            "value": 0.0000107,
+            "unit": "grams"
+        },
+        "vitamin c": {
+            "value": 0.00133,
+            "unit": "grams"
+        },
+        "thiamin": {
+            "value": 8.6e-7,
+            "unit": "grams"
+        },
+        "riboflavin": {
+            "value": 9.8e-7,
+            "unit": "grams"
+        },
+        "niacin": {
+            "value": 0.00001313,
+            "unit": "grams"
+        },
+        "vitamin b-6": {
+            "value": 9e-7,
+            "unit": "grams"
+        },
+        "dietary folate": {
+            "value": 0.00000152,
+            "unit": "grams"
+        },
+        "vitamin b-12": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin a": {
+            "value": 0.00005052,
+            "unit": "grams"
+        },
+        "vitamin e": {
+            "value": 0.0000075,
+            "unit": "grams"
+        },
+        "vitamin d2 and d3": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin d": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin k": {
+            "value": 0.0000164,
+            "unit": "grams"
+        },
+        "saturated fat": {
+            "value": 0.00132,
+            "unit": "grams"
+        },
+        "monounsaturated fat": {
+            "value": 0.00295,
+            "unit": "grams"
+        },
+        "polyunsaturated fat": {
+            "value": 0.00124,
+            "unit": "grams"
+        },
+        "cholesterol": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "caffeine": {
+            "value": 0,
+            "unit": "grams"
+        }
+    },
+    "cultivationCategory": "herb", 
+    "edibleParts": [
+        "leaft"
+    ], 
+    "germination": {
+        "duration": {
+            "max": 21, 
+            "min": 8, 
+            "unit": "days"
+        }, 
+        "rate": 0.6
+    }, 
+    "hardinessZone": {
+        "max": 9, 
+        "min": 6
+    }, 
+    "harvest": {
+        "duration": {
+            "max": 26, 
+            "min": 17, 
+            "unit": "week"
+        }
+    }, 
+    "name": "parsley", 
+    "plantings": [
+        {
+            "depth": {
+                "size": 0, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 3, 
+                "min": 2, 
+                "unit": "week"
+            }, 
+            "spacing": {
+                "size": 0.1, 
+                "unit": "inch"
+            }
+        }, 
+        {
+            "depth": {
+                "size": 3, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 8, 
+                "min": 6, 
+                "unit": "week"
+            }, 
+            "spacing": {
+                "size": 2, 
+                "unit": "inch"
+            }
+        }, 
+        {
+            "depth": {
+                "size": 6, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 13, 
+                "min": 10, 
+                "unit": "week"
+            }, 
+            "spacing": {
+                "size": 4, 
+                "unit": "inch"
+            }
+        }
+    ], 
+    "soilImpact": "heavy feeder", 
+    "species": "Petroselinum crispum", 
+    "sun": {
+        "max": "full sun", 
+        "min": "part sun"
+    }, 
+    "yield": {
+        "unit": "grams per meter", 
+        "value": 21971
+    }
+}

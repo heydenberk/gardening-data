@@ -1,0 +1,209 @@
+{
+    "content": {
+        "water": {
+            "value": 0.9361,
+            "unit": "grams"
+        },
+        "energy": {
+            "value": 0.21,
+            "unit": "kilocalories"
+        },
+        "protein": {
+            "value": 0.009,
+            "unit": "grams"
+        },
+        "fat": {
+            "value": 0.002,
+            "unit": "grams"
+        },
+        "carbohydrate": {
+            "value": 0.0454,
+            "unit": "grams"
+        },
+        "dietary fiber": {
+            "value": 0.018,
+            "unit": "grams"
+        },
+        "sugars": {
+            "value": 0.011,
+            "unit": "grams"
+        },
+        "calcium": {
+            "value": 0.00086,
+            "unit": "grams"
+        },
+        "iron": {
+            "value": 0.0000022,
+            "unit": "grams"
+        },
+        "magnesium": {
+            "value": 0.00012,
+            "unit": "grams"
+        },
+        "phosphorus": {
+            "value": 0.00014,
+            "unit": "grams"
+        },
+        "potassium": {
+            "value": 0.00288,
+            "unit": "grams"
+        },
+        "sodium": {
+            "value": 0.00004,
+            "unit": "grams"
+        },
+        "zinc": {
+            "value": 0.000001,
+            "unit": "grams"
+        },
+        "vitamin c": {
+            "value": 0.00008,
+            "unit": "grams"
+        },
+        "thiamin": {
+            "value": 2.0e-7,
+            "unit": "grams"
+        },
+        "riboflavin": {
+            "value": 3e-7,
+            "unit": "grams"
+        },
+        "niacin": {
+            "value": 0.000003,
+            "unit": "grams"
+        },
+        "vitamin b-6": {
+            "value": 2.4e-7,
+            "unit": "grams"
+        },
+        "dietary folate": {
+            "value": 7e-8,
+            "unit": "grams"
+        },
+        "vitamin b-12": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin a": {
+            "value": 6.0e-7,
+            "unit": "grams"
+        },
+        "vitamin e": {
+            "value": 0.0000027,
+            "unit": "grams"
+        },
+        "vitamin d2 and d3": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin d": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "vitamin k": {
+            "value": 2.93e-7,
+            "unit": "grams"
+        },
+        "saturated fat": {
+            "value": 0.00053,
+            "unit": "grams"
+        },
+        "monounsaturated fat": {
+            "value": 0.00039,
+            "unit": "grams"
+        },
+        "polyunsaturated fat": {
+            "value": 0.00099,
+            "unit": "grams"
+        },
+        "cholesterol": {
+            "value": 0,
+            "unit": "grams"
+        },
+        "caffeine": {
+            "value": 0,
+            "unit": "grams"
+        }
+    },
+    "cultivationCategory": "vegetable", 
+    "edibleParts": [
+        "leaf stem"
+    ], 
+    "germination": {
+        "duration": {
+            "max": 21, 
+            "min": 8, 
+            "unit": "days"
+        }, 
+        "rate": 0.6
+    }, 
+    "hardinessZone": {
+        "max": 10, 
+        "min": 8
+    }, 
+    "harvest": {
+        "duration": {
+            "max": 1, 
+            "min": 1, 
+            "unit": "week"
+        }
+    }, 
+    "name": "rhubarb", 
+    "plantings": [
+        {
+            "depth": {
+                "size": 1, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 4, 
+                "min": 3, 
+                "unit": "week"
+            }, 
+            "spacing": {
+                "size": 1, 
+                "unit": "inch"
+            }
+        }, 
+        {
+            "depth": {
+                "size": 6, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 6, 
+                "min": 3, 
+                "unit": "week"
+            }, 
+            "spacing": {
+                "size": 2, 
+                "unit": "inch"
+            }
+        }, 
+        {
+            "depth": {
+                "size": 6, 
+                "unit": "inch"
+            }, 
+            "duration": {
+                "max": 3, 
+                "min": 1, 
+                "unit": "year"
+            }, 
+            "spacing": {
+                "size": 24, 
+                "unit": "inch"
+            }
+        }
+    ], 
+    "soilImpact": "heavy feeder", 
+    "species": "Rheum rhabarbarum", 
+    "sun": {
+        "max": "full sun", 
+        "min": "full sun"
+    }, 
+    "yield": {
+        "unit": "grams per meter", 
+        "value": 2441
+    }
+}
